@@ -21,6 +21,7 @@
 		ACEA795D2AF278B600113A44 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA795C2AF278B600113A44 /* IntentHandler.swift */; };
 		ACEA79612AF278B600113A44 /* CharacterIntents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ACEA79572AF278B600113A44 /* CharacterIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ACEA79662AF278DF00113A44 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = ACEA79512AF2783F00113A44 /* Intents.intentdefinition */; };
+		ACEA79682AF28FFA00113A44 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA792D2AF24DC800113A44 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -304,6 +305,7 @@
 			files = (
 				ACEA79662AF278DF00113A44 /* Intents.intentdefinition in Sources */,
 				ACEA795D2AF278B600113A44 /* IntentHandler.swift in Sources */,
+				ACEA79682AF28FFA00113A44 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
