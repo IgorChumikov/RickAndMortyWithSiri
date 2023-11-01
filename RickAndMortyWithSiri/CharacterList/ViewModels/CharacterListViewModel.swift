@@ -14,6 +14,15 @@ final class CharacterListViewModel: ObservableObject {
     // MARK: - Properties
     
     @Published var characters: [Character] = []
+    @Published var characterName: String = "" {
+        didSet {
+            getCharacterName(name: characterName)
+        }
+    }
+    
+    
+    // MARK: - Private properties
+
     private let service: Service
     
     // MARK: - Init
@@ -25,6 +34,12 @@ final class CharacterListViewModel: ObservableObject {
     // MARK: - Functions
 
     func getCharacters() {
-        self.characters = service.fetchCharacters()
+        self.characters = service.getCharacters()
+    }
+    
+    private func getCharacterName(name: String) {
+        service.getCharacterByName(characterName: name) { characters in
+            self.characters = characters
+        }
     }
 }

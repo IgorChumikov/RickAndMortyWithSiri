@@ -18,15 +18,24 @@ struct CharacterListView: View {
     // MARK: - Content
     
     var body: some View {
-        List(viewModel.characters) { character in
-            HStack(alignment: .center, spacing: 10) {
-                imageCharacter(character: character)
-                infoCharacter(character: character)
+        VStack {
+            
+            TextField("  Найди по имени...", text: $viewModel.characterName)
+                .background(.green)
+                .font(.title)
+                .cornerRadius(8)
+                .padding()
+                
+            List(viewModel.characters) { character in
+                HStack(alignment: .center, spacing: 10) {
+                    imageCharacter(character: character)
+                    infoCharacter(character: character)
+                }
             }
-        }
-        .listStyle(.plain)
-        .onAppear {
-            viewModel.getCharacters()
+            .listStyle(.plain)
+            .onAppear {
+                viewModel.getCharacters()
+            }
         }
     }
     
