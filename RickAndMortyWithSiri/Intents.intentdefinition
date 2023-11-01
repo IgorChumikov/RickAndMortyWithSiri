@@ -25,6 +25,10 @@
 			<string>Random Trivia from Mumbers Api</string>
 			<key>INIntentDescriptionID</key>
 			<string>FWfMng</string>
+			<key>INIntentInput</key>
+			<string>characterName</string>
+			<key>INIntentKeyParameter</key>
+			<string>characterName</string>
 			<key>INIntentLastParameterTag</key>
 			<integer>1</integer>
 			<key>INIntentManagedParameterCombinations</key>
@@ -33,6 +37,10 @@
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>тут</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>BzGbZv</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
 					<true/>
 				</dict>
@@ -47,6 +55,10 @@
 					<true/>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>тут</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>iR7gpv</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -64,6 +76,8 @@
 					<dict>
 						<key>INIntentParameterMetadataCapitalization</key>
 						<string>Sentences</string>
+						<key>INIntentParameterMetadataDefaultValue</key>
+						<string>тут </string>
 						<key>INIntentParameterMetadataDefaultValueID</key>
 						<string>xbytjl</string>
 					</dict>

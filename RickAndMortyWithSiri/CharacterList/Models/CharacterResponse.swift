@@ -9,14 +9,14 @@ import Foundation
 
 // MARK: - Character
 
-struct CharacterResponse: Codable {
+public struct CharacterResponse: Codable {
     // MARK: - Properties
     
-    let results: [Character]
+    public let results: [Character]
     
     // MARK: - Init
     
-    init(results: [Character]) {
+    public init(results: [Character]) {
         self.results = results
     }
 }
