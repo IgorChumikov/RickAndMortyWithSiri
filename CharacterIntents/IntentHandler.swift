@@ -9,6 +9,13 @@ import Intents
 
 class CharacterSearchIntentHandler: NSObject, CharacterSearchIntentHandling {
     
+    let service: Service
+      
+      override init() {
+          service = Service()
+          super.init()
+      }
+    
     // Метод обработки интента. Здесь вы выполняете поиск персонажа по имени.
     func handle(intent: CharacterSearchIntent, completion: @escaping (CharacterSearchIntentResponse) -> Void) {
         print(intent.characterName!)
