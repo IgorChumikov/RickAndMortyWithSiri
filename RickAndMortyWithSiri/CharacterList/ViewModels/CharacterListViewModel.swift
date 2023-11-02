@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import Intents
 
 // MARK: - CharacterListViewModel
 
@@ -44,6 +45,15 @@ final class CharacterListViewModel: ObservableObject {
     }
     
     func interaction() {
-        let intent = CharacterSearchIntent()
+       let intent = CharacterSearchIntent()
+       let interaction = INInteraction(intent: intent, response: nil)
+       interaction.donate { (error) in
+           if let error = error {
+               print("Не удалось предоставить голосовую команду в Siri: \(error)")
+           } else {
+               print("Голосовая команда предоставлена в Siri.")
+           }
+       }
     }
+
 }
