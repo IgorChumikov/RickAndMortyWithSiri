@@ -11,6 +11,7 @@
 		AC981D812AF3B89700783E0B /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA79262AF24D7400113A44 /* CharacterResponse.swift */; };
 		AC981D822AF3B89A00783E0B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA79282AF24D8600113A44 /* Character.swift */; };
 		AC981D832AF3B89C00783E0B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA792A2AF24D9C00113A44 /* Location.swift */; };
+		AC981D862AF3D34500783E0B /* CharacterSearchIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC981D852AF3D34500783E0B /* CharacterSearchIntentHandler.swift */; };
 		ACEA79112AF24C2B00113A44 /* RickAndMortyWithSiriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA79102AF24C2B00113A44 /* RickAndMortyWithSiriApp.swift */; };
 		ACEA79152AF24C2D00113A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEA79142AF24C2D00113A44 /* Assets.xcassets */; };
 		ACEA79182AF24C2D00113A44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEA79172AF24C2D00113A44 /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		AC981D842AF3C27C00783E0B /* RickAndMortyWithSiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RickAndMortyWithSiri.entitlements; sourceTree = "<group>"; };
+		AC981D852AF3D34500783E0B /* CharacterSearchIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearchIntentHandler.swift; sourceTree = "<group>"; };
 		ACEA790D2AF24C2B00113A44 /* RickAndMortyWithSiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyWithSiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEA79102AF24C2B00113A44 /* RickAndMortyWithSiriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyWithSiriApp.swift; sourceTree = "<group>"; };
 		ACEA79142AF24C2D00113A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				ACEA795C2AF278B600113A44 /* IntentHandler.swift */,
+				AC981D852AF3D34500783E0B /* CharacterSearchIntentHandler.swift */,
 				ACEA795E2AF278B600113A44 /* Info.plist */,
 			);
 			path = CharacterIntents;
@@ -310,6 +313,7 @@
 			files = (
 				ACEA79662AF278DF00113A44 /* Intents.intentdefinition in Sources */,
 				AC981D802AF3B89000783E0B /* Service.swift in Sources */,
+				AC981D862AF3D34500783E0B /* CharacterSearchIntentHandler.swift in Sources */,
 				AC981D812AF3B89700783E0B /* CharacterResponse.swift in Sources */,
 				AC981D822AF3B89A00783E0B /* Character.swift in Sources */,
 				ACEA795D2AF278B600113A44 /* IntentHandler.swift in Sources */,
