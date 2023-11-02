@@ -25,10 +25,6 @@
 			<string>Random Trivia from Mumbers Api</string>
 			<key>INIntentDescriptionID</key>
 			<string>FWfMng</string>
-			<key>INIntentInput</key>
-			<string>characterName</string>
-			<key>INIntentKeyParameter</key>
-			<string>characterName</string>
 			<key>INIntentLastParameterTag</key>
 			<integer>1</integer>
 			<key>INIntentManagedParameterCombinations</key>
@@ -38,7 +34,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>тут</string>
+					<string>info ${characterName}</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>BzGbZv</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
@@ -56,7 +52,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>тут</string>
+					<string>info ${characterName}</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>iR7gpv</string>
 				</dict>
@@ -115,12 +111,8 @@
 				<key>INIntentResponseCodes</key>
 				<array>
 					<dict>
-						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>2 Вот вам факт ${characters}</string>
-						<key>INIntentResponseCodeConciseFormatStringID</key>
-						<string>qNPuH0</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>1 Вот вам факт ${characters}</string>
+						<string>Вот${characters}</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>g98isV</string>
 						<key>INIntentResponseCodeName</key>
@@ -129,12 +121,8 @@
 						<true/>
 					</dict>
 					<dict>
-						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>2 Извини я не смог найти номер в API</string>
-						<key>INIntentResponseCodeConciseFormatStringID</key>
-						<string>YNqe9X</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>1 Извини я не смог найти номер в API</string>
+						<string>Извини я не смог найти номер в API</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>eHR68R</string>
 						<key>INIntentResponseCodeName</key>
@@ -142,7 +130,7 @@
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
-				<integer>3</integer>
+				<integer>4</integer>
 				<key>INIntentResponseParameters</key>
 				<array>
 					<dict>
@@ -154,10 +142,8 @@
 						<integer>1</integer>
 						<key>INIntentResponseParameterName</key>
 						<string>characters</string>
-						<key>INIntentResponseParameterSupportsMultipleValues</key>
-						<true/>
 						<key>INIntentResponseParameterTag</key>
-						<integer>3</integer>
+						<integer>4</integer>
 						<key>INIntentResponseParameterType</key>
 						<string>String</string>
 					</dict>
