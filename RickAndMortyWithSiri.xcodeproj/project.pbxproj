@@ -52,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC981D842AF3C27C00783E0B /* RickAndMortyWithSiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RickAndMortyWithSiri.entitlements; sourceTree = "<group>"; };
 		ACEA790D2AF24C2B00113A44 /* RickAndMortyWithSiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyWithSiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEA79102AF24C2B00113A44 /* RickAndMortyWithSiriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyWithSiriApp.swift; sourceTree = "<group>"; };
 		ACEA79142AF24C2D00113A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		ACEA790F2AF24C2B00113A44 /* RickAndMortyWithSiri */ = {
 			isa = PBXGroup;
 			children = (
+				AC981D842AF3C27C00783E0B /* RickAndMortyWithSiri.entitlements */,
 				ACEA79672AF278E100113A44 /* Info.plist */,
 				ACEA79102AF24C2B00113A44 /* RickAndMortyWithSiriApp.swift */,
 				ACEA791E2AF24D0500113A44 /* CharacterList */,
@@ -451,6 +453,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RickAndMortyWithSiri/RickAndMortyWithSiri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RickAndMortyWithSiri/Preview Content\"";
@@ -482,6 +485,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RickAndMortyWithSiri/RickAndMortyWithSiri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RickAndMortyWithSiri/Preview Content\"";
