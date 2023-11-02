@@ -42,4 +42,8 @@ final class CharacterListViewModel: ObservableObject {
             self.characters = characters
         }
     }
+    
+    func interaction() {
+        let intent = CharacterSearchIntent()
+    }
 }
